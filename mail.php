@@ -5,11 +5,11 @@ $subject = $_POST["subject"];
 $message = $_POST["message"];
 
 
-$EmailTo = "000.lunchbox@gmail.com";
-$Title = "New Message Received";
+$EmailTo = "mul61943@gmail.com";
+$Title = "Pesan Baru dari Rakyat";
 
 // prepare email body text
-$Fields .= "Name: ";
+$Fields .= "Nama: ";
 $Fields .= $name;
 $Fields .= "\n";
 
@@ -17,11 +17,11 @@ $Fields.= "Email: ";
 $Fields .= $email;
 $Fields .= "\n";
 
-$Fields.= "Subject: ";
+$Fields.= "Subyek: ";
 $Fields .= $subject;
 $Fields .= "\n";
 
-$Fields .= "Message: ";
+$Fields .= "Pesan: ";
 $Fields .= $message;
 $Fields .= "\n";
 
